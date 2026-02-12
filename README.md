@@ -38,4 +38,22 @@ The objective of this task was to build a **modern, responsive webpage layout** 
 ---
 
 ## 📂 Project Structure
+project-folder/
+│
+├── index.html
+├── style.css
+├── images/
+│ └── hero-bg.jpg
+└── README.md
+
+## 📱 Responsive Design
+
+The layout adapts seamlessly to:
+- Desktop screens
+- Tablets
+- Mobile devices
+
+This ensures usability and visual consistency across different screen sizes.
+
+---
 
