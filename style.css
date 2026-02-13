@@ -11,7 +11,6 @@ body {
   color: #e5e7eb;
 }
 
-/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -65,13 +64,13 @@ body {
   width: 100%;
 }
 
-/* HERO */
 .hero {
   min-height: 85vh;
   display: flex;
   align-items: center;
   padding: 4rem;
 
+  /* Background Img */
 background:
 url(bg-img.jpg);
 
@@ -79,7 +78,6 @@ url(bg-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 .hero-text {
   max-width: 620px;
@@ -96,7 +94,6 @@ url(bg-img.jpg);
   margin-bottom: 2.5rem;
 }
 
-/* BUTTON */
 .hero button {
   padding: 0.9rem 2.6rem;
   background: linear-gradient(135deg, #2563eb, #38bdf8);
@@ -114,7 +111,7 @@ url(bg-img.jpg);
   box-shadow: 0 12px 35px #38bdf866;
 }
 
-/* STATS */
+/* Stat Box */
 .stats {
   display: flex;
   justify-content: space-around;
@@ -138,7 +135,6 @@ url(bg-img.jpg);
   margin-top: 0.5rem;
 }
 
-/* SHOWCASE */
 .showcase {
   padding: 5rem 3rem;
 }
@@ -148,14 +144,13 @@ url(bg-img.jpg);
   margin-bottom: 3rem;
 }
 
-/* GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2.5rem;
 }
 
-/* CARDS */
+/* Cards */
 .card {
   padding: 2.2rem;
   border-radius: 16px;
@@ -182,7 +177,6 @@ url(bg-img.jpg);
   box-shadow: 0 20px 40px #2563eb55;
 }
 
-/* FOOTER */
 .footer {
   text-align: center;
   padding: 1.5rem;
@@ -190,7 +184,6 @@ url(bg-img.jpg);
   color: #64748b;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.3rem;
